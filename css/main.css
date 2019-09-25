@@ -1824,7 +1824,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fff920;
+  background: #60fcbd;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3263,6 +3263,9 @@ pre .javascript .function {
 .post-body p a:hover {
   color: #0477ab;
   text-decoration: underline;
+}
+.algolia-powered {
+  display: none;
 }
 .content {
   border-radius: 20px;
