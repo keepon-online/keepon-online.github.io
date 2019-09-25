@@ -40,7 +40,7 @@
 
   
   
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+  <link href="../../../../lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
 
 
 
@@ -48,21 +48,21 @@
 
 
 
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+<link href="../../../../lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
 
-<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
-
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+<link href="../../../../css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../../../images/apple-touch-icon-next.png?v=5.1.4">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../../../images/favicon-32x32-next.png?v=5.1.4">
 
 
-  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../../../images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="../../../../images/logo.svg?v=5.1.4" color="#222">
 
 
 
@@ -87,12 +87,12 @@
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="springcloud 微服务 Greenwich版本 首先创建一个主Maven工程，在其pom文件引入依赖，spring Boot版本为2.1.3.RELEASE，Spring Cloud版本为Greenwich.RELEASE。这个pom文件作为父pom文件，起到依赖版本控制的作用，其他module工程继承该pom。这一系列文章全部采用这种模式，其他文章的pom跟这个pom一样。再次说明一下，">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="https://www.keepon.online/.online//spring-cloud_2019-02-28_15-29-40.jpg">
+<meta property="og:image" content="https://www.keepon.online/2019/03/04/SpringCloud之一eureka注册中心-Greenwich版本/spring-cloud_2019-02-28_15-29-40.jpg">
 <meta property="og:updated_time" content="2019-09-23T10:16:30.787Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="SpringCloud之一eureka注册中心(Greenwich版本)">
 <meta name="twitter:description" content="springcloud 微服务 Greenwich版本 首先创建一个主Maven工程，在其pom文件引入依赖，spring Boot版本为2.1.3.RELEASE，Spring Cloud版本为Greenwich.RELEASE。这个pom文件作为父pom文件，起到依赖版本控制的作用，其他module工程继承该pom。这一系列文章全部采用这种模式，其他文章的pom跟这个pom一样。再次说明一下，">
-<meta name="twitter:image" content="https://www.keepon.online/.online//spring-cloud_2019-02-28_15-29-40.jpg">
+<meta name="twitter:image" content="https://www.keepon.online/2019/03/04/SpringCloud之一eureka注册中心-Greenwich版本/spring-cloud_2019-02-28_15-29-40.jpg">
 
 
 
@@ -187,7 +187,7 @@
       
         
         <li class="menu-item menu-item-home">
-          <a href="/" rel="section">
+          <a href rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
             
@@ -197,7 +197,7 @@
       
         
         <li class="menu-item menu-item-about">
-          <a href="/about/" rel="section">
+          <a href rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
             
@@ -207,7 +207,7 @@
       
         
         <li class="menu-item menu-item-tags">
-          <a href="/tags/" rel="section">
+          <a href rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
             
@@ -217,7 +217,7 @@
       
         
         <li class="menu-item menu-item-categories">
-          <a href="/categories/" rel="section">
+          <a href rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
             
@@ -227,7 +227,7 @@
       
         
         <li class="menu-item menu-item-archives">
-          <a href="/archives/" rel="section">
+          <a href rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
             
@@ -306,12 +306,12 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://www.keepon.online/2019/03/04/SpringCloud之一eureka注册中心-Greenwich版本/">
+    <link itemprop="mainEntityOfPage" href="https://www.keepon.online">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Felix">
       <meta itemprop="description" content>
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="../../../../images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -358,7 +358,7 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/java/" itemprop="url" rel="index">
+                  <a href="../../../../categories/java/" itemprop="url" rel="index">
                     <span itemprop="name">java</span>
                   </a>
                 </span>
@@ -459,7 +459,7 @@
 <h1 id="启动两个工程"><a href="#启动两个工程" class="headerlink" title="启动两个工程"></a>启动两个工程</h1><blockquote>
 <p>首先启动eureka server,开启动eureka client</p>
 </blockquote>
-<h2 id="验证"><a href="#验证" class="headerlink" title="验证"></a>验证</h2><p><img src="/.online//spring-cloud_2019-02-28_15-29-40.jpg" alt="&quot;springcloud&quot;"></p>
+<h2 id="验证"><a href="#验证" class="headerlink" title="验证"></a>验证</h2><p><img src="//www.keepon.online/2019/03/04/SpringCloud之一eureka注册中心-Greenwich版本/spring-cloud_2019-02-28_15-29-40.jpg" alt="&quot;springcloud&quot;"></p>
 <p>注册成功</p>
 
       
@@ -478,13 +478,13 @@
       
         <div class="post-tags">
           
-            <a href="/tags/SpringCloud/" rel="tag"># SpringCloud</a>
+            <a href="../../../../tags/SpringCloud/" rel="tag"># SpringCloud</a>
           
-            <a href="/tags/微服务/" rel="tag"># 微服务</a>
+            <a href="../../../../tags/微服务/" rel="tag"># 微服务</a>
           
-            <a href="/tags/java/" rel="tag"># java</a>
+            <a href="../../../../tags/java/" rel="tag"># java</a>
           
-            <a href="/tags/编程/" rel="tag"># 编程</a>
+            <a href="../../../../tags/编程/" rel="tag"># 编程</a>
           
         </div>
       
@@ -497,7 +497,7 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/03/03/Spring-Cloud之二-服务提供者-Eureka-Client-Greenwich版本/" rel="next" title="Spring Cloud之二服务提供者(Eureka Client)(Greenwich版本)">
+              <a href="../../03/Spring-Cloud之二-服务提供者-Eureka-Client-Greenwich版本/" rel="next" title="Spring Cloud之二服务提供者(Eureka Client)(Greenwich版本)">
                 <i class="fa fa-chevron-left"></i> Spring Cloud之二服务提供者(Eureka Client)(Greenwich版本)
               </a>
             
@@ -507,7 +507,7 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2019/03/05/SpringCloud之四Feign(负载均衡)/" rel="prev" title="SpringCloud之四Feign(负载均衡)">
+              <a href="../../05/SpringCloud之四Feign(负载均衡)/" rel="prev" title="SpringCloud之四Feign(负载均衡)">
                 SpringCloud之四Feign(负载均衡) <i class="fa fa-chevron-right"></i>
               </a>
             
@@ -584,7 +584,7 @@
             
               <div class="site-state-item site-state-posts">
               
-                <a href="/archives/">
+                <a href="../../../../archives/">
               
                   <span class="site-state-item-count">42</span>
                   <span class="site-state-item-name">日志</span>
@@ -596,7 +596,7 @@
               
               
               <div class="site-state-item site-state-categories">
-                <a href="/categories/index.html">
+                <a href="../../../../categories/index.html">
                   <span class="site-state-item-count">7</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
@@ -607,7 +607,7 @@
               
               
               <div class="site-state-item site-state-tags">
-                <a href="/tags/index.html">
+                <a href="../../../../tags/index.html">
                   <span class="site-state-item-count">23</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
@@ -757,64 +757,64 @@
 
   
   
-    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+    <script type="text/javascript" src="../../../../lib/jquery/index.js?v=2.1.3"></script>
   
 
   
   
-    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+    <script type="text/javascript" src="../../../../lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
   
 
   
   
-    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+    <script type="text/javascript" src="../../../../lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
   
 
   
   
-    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+    <script type="text/javascript" src="../../../../lib/velocity/velocity.min.js?v=1.2.1"></script>
   
 
   
   
-    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+    <script type="text/javascript" src="../../../../lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
   
 
   
   
-    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+    <script type="text/javascript" src="../../../../lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
   
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
-
-
-
-  
-  
-
-
-  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
-
-  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
-
-
-
-  
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
-
 
 
   
 
 
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+  <script type="text/javascript" src="../../../../js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="../../../../js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="../../../../js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="../../../../js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="../../../../js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="../../../../js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="../../../../js/src/bootstrap.js?v=5.1.4"></script>
 
 
 
@@ -1176,14 +1176,14 @@
   
   
   
-  <link rel="stylesheet" href="/lib/algolia-instant-search/instantsearch.min.css">
+  <link rel="stylesheet" href="../../../../lib/algolia-instant-search/instantsearch.min.css">
 
   
   
-  <script src="/lib/algolia-instant-search/instantsearch.min.js"></script>
+  <script src="../../../../lib/algolia-instant-search/instantsearch.min.js"></script>
   
 
-  <script src="/js/src/algolia-search.js?v=5.1.4"></script>
+  <script src="../../../../js/src/algolia-search.js?v=5.1.4"></script>
 
 
 
