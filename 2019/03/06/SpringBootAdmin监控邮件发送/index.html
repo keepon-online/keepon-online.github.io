@@ -83,16 +83,16 @@
 <meta name="keywords" content="服务监控,微服务,SpringBootAdmin监控">
 <meta property="og:type" content="article">
 <meta property="og:title" content="SpringBootAdmin监控邮件发送">
-<meta property="og:url" content="http://yoursite.com/2019/03/06/SpringBootAdmin监控邮件发送/index.html">
+<meta property="og:url" content="https://www.keepon.online/2019/03/06/SpringBootAdmin监控邮件发送/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="Spring Boot Admin 是一个管理和监控Spring Boot 应用程序的开源软件。每个应用都认为是一个客户端，通过HTTP或者使用 Eureka注册到admin server中进行展示,Spring Boot Admin UI部分使用AngularJs将数据展示在前端。Spring Boot Admin 是一个针对spring-boot的actuator接口进行UI美化封装的监控工具">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://yoursite.com/2019/03/06/SpringBootAdmin监控邮件发送/SpringBootAdmin%E7%9B%91%E6%8E%A7%E9%82%AE%E4%BB%B6%E5%8F%91%E9%80%81/springbootadmin20190306112445.png">
+<meta property="og:image" content="https://www.keepon.online/.online//springbootadmin20190306112445.png">
 <meta property="og:updated_time" content="2019-09-23T10:16:30.761Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="SpringBootAdmin监控邮件发送">
 <meta name="twitter:description" content="Spring Boot Admin 是一个管理和监控Spring Boot 应用程序的开源软件。每个应用都认为是一个客户端，通过HTTP或者使用 Eureka注册到admin server中进行展示,Spring Boot Admin UI部分使用AngularJs将数据展示在前端。Spring Boot Admin 是一个针对spring-boot的actuator接口进行UI美化封装的监控工具">
-<meta name="twitter:image" content="http://yoursite.com/2019/03/06/SpringBootAdmin监控邮件发送/SpringBootAdmin%E7%9B%91%E6%8E%A7%E9%82%AE%E4%BB%B6%E5%8F%91%E9%80%81/springbootadmin20190306112445.png">
+<meta name="twitter:image" content="https://www.keepon.online/.online//springbootadmin20190306112445.png">
 
 
 
@@ -122,7 +122,7 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2019/03/06/SpringBootAdmin监控邮件发送/">
+  <link rel="canonical" href="https://www.keepon.online/2019/03/06/SpringBootAdmin监控邮件发送/">
 
 
 
@@ -306,7 +306,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/06/SpringBootAdmin监控邮件发送/">
+    <link itemprop="mainEntityOfPage" href="https://www.keepon.online/2019/03/06/SpringBootAdmin监控邮件发送/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Felix">
@@ -441,7 +441,7 @@
 
 <h1 id="application-yml"><a href="#application-yml" class="headerlink" title="application.yml"></a>application.yml</h1><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br></pre></td><td class="code"><pre><span class="line">server:</span><br><span class="line">  port: <span class="number">8790</span></span><br><span class="line"></span><br><span class="line">spring:</span><br><span class="line">  application:</span><br><span class="line">    name: admin-server-monitoring</span><br><span class="line">  security:</span><br><span class="line">    user:</span><br><span class="line">      name: <span class="string">"admin"</span> </span><br><span class="line">      password: <span class="string">"admin"</span></span><br><span class="line">  mail:</span><br><span class="line">    host:  smtp.126.com</span><br><span class="line">    username: fjieyou@<span class="number">126</span>.com</span><br><span class="line">    password: 授权密码</span><br><span class="line">  boot:</span><br><span class="line">    admin:</span><br><span class="line">      notify:</span><br><span class="line">        mail:</span><br><span class="line">          to: <span class="number">757505535</span><span class="meta">@qq</span>.com</span><br><span class="line">          from: fjieyou@<span class="number">126</span>.com</span><br><span class="line">eureka:</span><br><span class="line">  instance:</span><br><span class="line">    leaseRenewalIntervalInSeconds: <span class="number">10</span></span><br><span class="line">    health-check-url-path: /actuator/health</span><br><span class="line">    instance-id: $&#123;spring.application.name&#125;:$&#123;server.port&#125;</span><br><span class="line">    prefer-ip-address: <span class="keyword">true</span></span><br><span class="line">    metadata-map:</span><br><span class="line">      user.name: $&#123;spring.security.user.name&#125;</span><br><span class="line">      user.password: $&#123;spring.security.user.password&#125;</span><br><span class="line">  client:</span><br><span class="line">    registryFetchIntervalSeconds: <span class="number">5</span></span><br><span class="line">    service-url:</span><br><span class="line">      defaultZone: http:<span class="comment">//localhost:8761/eureka/</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">info:</span><br><span class="line">  name: admin-server-monitoring</span><br><span class="line">  company: www.jieepre.com</span><br><span class="line">  artifactId: admin-server</span><br><span class="line">  version: <span class="number">1.1</span>.1</span><br><span class="line"></span><br><span class="line">management:</span><br><span class="line">  endpoints:</span><br><span class="line">    web:</span><br><span class="line">      exposure:</span><br><span class="line">        include: <span class="string">"*"</span></span><br><span class="line">  endpoint:</span><br><span class="line">    health:</span><br><span class="line">      show-details: always</span><br></pre></td></tr></table></figure>
 
-<h1 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h1><p><img src="SpringBootAdmin%E7%9B%91%E6%8E%A7%E9%82%AE%E4%BB%B6%E5%8F%91%E9%80%81/springbootadmin20190306112445.png" alt="&quot;springbootadmin&quot;"><br>服务离线 自动发送监控信息</p>
+<h1 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h1><p><img src="/.online//springbootadmin20190306112445.png" alt="&quot;springbootadmin&quot;"><br>服务离线 自动发送监控信息</p>
 
       
     </div>
@@ -557,7 +557,7 @@
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
               <p class="site-author-name" itemprop="name">Felix</p>
-              <p class="site-description motion-element" itemprop="description"></p>
+              <p class="site-description motion-element" itemprop="description">记录</p>
           </div>
 
           <nav class="site-state motion-element">

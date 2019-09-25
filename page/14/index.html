@@ -79,13 +79,16 @@
 
 
 
+<meta name="description" content="记录">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/page/14/index.html">
+<meta property="og:url" content="https://www.keepon.online/page/14/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="记录">
 <meta property="og:locale" content="zh-Hans">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo">
+<meta name="twitter:description" content="记录">
 
 
 
@@ -115,7 +118,7 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/page/14/">
+  <link rel="canonical" href="https://www.keepon.online/page/14/">
 
 
 
@@ -300,7 +303,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/22/SpringCloud之docker中运行/">
+    <link itemprop="mainEntityOfPage" href="https://www.keepon.online/2019/03/22/SpringCloud之docker中运行/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Felix">
@@ -432,15 +435,15 @@
 <h2 id="启用Hyper-V"><a href="#启用Hyper-V" class="headerlink" title="启用Hyper-V"></a>启用Hyper-V</h2><blockquote>
 <p>打开控制面板 - 程序和功能 - 启用或关闭Windows功能，勾选Hyper-V，然后点击确定即可，如图：</p>
 </blockquote>
-<p><img src="/SpringCloud%E4%B9%8Bdocker%E4%B8%AD%E8%BF%90%E8%A1%8C/201802289119_6051.png" alt="docker"><br>点击确定，电脑会重启，</p>
+<p><img src="/.online//201802289119_6051.png" alt="docker"><br>点击确定，电脑会重启，</p>
 <h2 id="安装docker"><a href="#安装docker" class="headerlink" title="安装docker"></a>安装docker</h2><blockquote>
 <p>下载地址<br><a href="https://hub.docker.com/editions/community/docker-ce-desktop-windows" target="_blank" rel="noopener">https://hub.docker.com/editions/community/docker-ce-desktop-windows</a></p>
 </blockquote>
-<p>下载需要登录,先注册一个账号<br><img src="SpringCloud%E4%B9%8Bdocker%E4%B8%AD%E8%BF%90%E8%A1%8C/Snipaste_2019-03-22_15-08-22.jpg" alt="docker"></p>
+<p>下载需要登录,先注册一个账号<br><img src="/.online//Snipaste_2019-03-22_15-08-22.jpg" alt="docker"></p>
 <blockquote>
-<p>开始安装<br>点击<img src="SpringCloud%E4%B9%8Bdocker%E4%B8%AD%E8%BF%90%E8%A1%8C/Snipaste_2019-03-22_15-12-57.jpg" alt="docker"></p>
+<p>开始安装<br>点击<img src="/.online//Snipaste_2019-03-22_15-12-57.jpg" alt="docker"></p>
 </blockquote>
-<p><img src="SpringCloud%E4%B9%8Bdocker%E4%B8%AD%E8%BF%90%E8%A1%8C/Snipaste_2019-03-22_15-13-08.jpg" alt="docker"><br>点击close安装完成</p>
+<p><img src="/.online//Snipaste_2019-03-22_15-13-08.jpg" alt="docker"><br>点击close安装完成</p>
 <blockquote>
 <p>查看</p>
 </blockquote>
@@ -458,13 +461,13 @@
 </blockquote>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt; mvn clean package -DskipTests=<span class="literal">true</span> docker:build</span><br></pre></td></tr></table></figure>
 
-<p>构建完成<br><img src="SpringCloud%E4%B9%8Bdocker%E4%B8%AD%E8%BF%90%E8%A1%8C/Snipaste_2019-03-22_15-32-25.jpg" alt="docker"></p>
+<p>构建完成<br><img src="/.online//Snipaste_2019-03-22_15-32-25.jpg" alt="docker"></p>
 <h1 id="运行"><a href="#运行" class="headerlink" title="运行"></a>运行</h1><blockquote>
 <p>查看镜像 </p>
 </blockquote>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker images</span><br></pre></td></tr></table></figure>
 
-<p><img src="SpringCloud%E4%B9%8Bdocker%E4%B8%AD%E8%BF%90%E8%A1%8C/Snipaste_2019-03-22_15-34-55.jpg" alt></p>
+<p><img src="/.online//Snipaste_2019-03-22_15-34-55.jpg" alt></p>
 <blockquote>
 <p>运行</p>
 </blockquote>
@@ -475,11 +478,11 @@
 </blockquote>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker ps</span><br></pre></td></tr></table></figure>
 
-<p><img src="SpringCloud%E4%B9%8Bdocker%E4%B8%AD%E8%BF%90%E8%A1%8C/Snipaste_2019-03-22_15-39-30.jpg" alt="docker"></p>
+<p><img src="/.online//Snipaste_2019-03-22_15-39-30.jpg" alt="docker"></p>
 <blockquote>
 <p>访问<br><a href="http://localhost:8761/" target="_blank" rel="noopener">http://localhost:8761/</a></p>
 </blockquote>
-<p><img src="SpringCloud%E4%B9%8Bdocker%E4%B8%AD%E8%BF%90%E8%A1%8C/Snipaste_2019-03-22_15-41-51.jpg" alt="docker"></p>
+<p><img src="/.online//Snipaste_2019-03-22_15-41-51.jpg" alt="docker"></p>
 <h1 id="推送到阿里云"><a href="#推送到阿里云" class="headerlink" title="推送到阿里云"></a>推送到阿里云</h1><h2 id="登录阿里云Docker-Registry"><a href="#登录阿里云Docker-Registry" class="headerlink" title="登录阿里云Docker Registry"></a>登录阿里云Docker Registry</h2><p>xxxx是登录用户名</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt; docker login --username=xxxxx registry.cn-shenzhen.aliyuncs.com</span><br></pre></td></tr></table></figure>
 
@@ -487,7 +490,7 @@
 
 <h2 id="将镜像推送到Registry"><a href="#将镜像推送到Registry" class="headerlink" title="将镜像推送到Registry"></a>将镜像推送到Registry</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; docker tag [镜像ID] registry.cn-shenzhen.aliyuncs.com/jieepre/eureka-server:[镜像版本号]</span><br><span class="line"></span><br><span class="line">&gt; docker push registry.cn-shenzhen.aliyuncs.com/jieepre/eureka-server:[镜像版本号]</span><br></pre></td></tr></table></figure>
 
-<p><img src="SpringCloud%E4%B9%8Bdocker%E4%B8%AD%E8%BF%90%E8%A1%8C/Snipaste_2019-03-22_16-31-30.jpg" alt="docker"><br><img src="SpringCloud%E4%B9%8Bdocker%E4%B8%AD%E8%BF%90%E8%A1%8C/Snipaste_2019-03-22_16-33-10.jpg" alt="docker"></p>
+<p><img src="/.online//Snipaste_2019-03-22_16-31-30.jpg" alt="docker"><br><img src="/.online//Snipaste_2019-03-22_16-33-10.jpg" alt="docker"></p>
 
           
         
@@ -563,7 +566,7 @@
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
               <p class="site-author-name" itemprop="name">Felix</p>
-              <p class="site-description motion-element" itemprop="description"></p>
+              <p class="site-description motion-element" itemprop="description">记录</p>
           </div>
 
           <nav class="site-state motion-element">
